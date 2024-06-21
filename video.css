@@ -1,0 +1,107 @@
+
+  
+  .video-container
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+       
+  }
+  @media screen and (max-width:600px)
+  {
+    .video-container
+  {
+    display: flex;
+   flex-direction:column;
+  }
+}
+  .video-preview
+  {
+    
+     display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    vertical-align: top;
+      
+
+  }
+  .video-preview:hover
+  {
+    background-color: rgb(245, 242, 242);
+    transition: background-color 0.5s;
+    border-radius: 10px;
+  }
+  .profile-pic
+  {
+    display:inline-block;
+    vertical-align: top;
+   
+  }
+  .dp{
+    border-radius: 40px;
+    width:50px;
+    margin-top: 8px;
+
+    margin-left: 5px;;
+
+  }
+  .video-info
+  {
+    display: inline-block;
+    margin-left: 10px;
+    width:250px;
+        
+  }
+  .video-title
+  {
+    display:block;
+    font-weight: bold;
+    font-size:17px;
+    margin-bottom: 9px;
+  }
+  .video-author
+  {
+    display:block;
+  }
+  
+  .video-stats
+  {
+    display:block;
+  }
+
+  .thumbnail
+  {
+    display:block;
+    width:310px;
+   
+  }
+  .thumbnail-style
+  {
+    position:relative;
+    
+  }
+  .time-bar
+  {
+    position:absolute;
+    background-color: black;
+    color: white;
+ bottom: 15px;
+ right: 20px;
+ padding: 3px;
+ font-family: Roboto,Arial;
+ font-weight: 500;
+ border-radius: 4px;
+ 
+ 
+
+ 
+ }
+ .video-info, .video-title,.thumbnail:hover
+ {
+cursor: pointer;
+ }
+   
+
+
+ 
